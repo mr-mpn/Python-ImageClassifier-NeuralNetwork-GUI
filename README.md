@@ -63,3 +63,8 @@ Now we can use the trained model in our code 'classifier.py'!
 Reminder: Use pip install tensorflow to install the required library
 
 Credit to Python Simplifed Youtube Channel : https://www.youtube.com/watch?v=h0dglh9elCw&t=560s
+
+------------------------------------------
+![Readme](https://github.com/mr-mpn/Python-ImageClassifier-NeuralNetwork-GUI/assets/135954454/8ff9a139-7773-4555-bbda-d452fd38eceb)
+
+
