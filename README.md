@@ -52,10 +52,14 @@ y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
 
 ---------------------------------------------
-next, we build our model with the appropriate number of nodes and optimizer = 'adam' 
+
+next we build our model with the appropriate number of nodes and optimizer = 'adam' 
 then we train the model with x_train and y_train
-epochs = 10, shows how many times it goes through the entire dataset
+epochs = 10 , shows how times it goes through the entire dataset
 then the trained model is saved as baseline.keras
-Now we can use the trained model in our code 'classifier.py'! 
+Now we can use the trained model in our code 'classifier.py'!  
+
 ---------------------------------------------
 Reminder: Use pip install tensorflow to install the required library
+
+Credit to Python Simplifed Youtube Channel : https://www.youtube.com/watch?v=h0dglh9elCw&t=560s
