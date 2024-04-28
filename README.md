@@ -20,7 +20,7 @@ airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships and trucks
 
 CIFAR10 provides 50000 train samples and 10000 test samples in RGB
 All samples are 32px * 32px
-RGB: RED , GREEN, BLUE
+RGB: RED, GREEN, BLUE
 
 ---------------------------------------------
 
@@ -29,7 +29,7 @@ First step = Normalization of the samples (pixel values)
 To do so we have x_train = x_train / 255 (which 255 is the (max-min) value of the value for each pixel)
 
 Each sample contains pixels, and each pixel has a value between 0 and 255 which is the color intensity 
-By Normalization the values go in the range of zero and organize
+By Normalization, the values go in the range of zero and organize
 
 Then we use one-hot encoding to change the decimal values to their binary 
 x_train: pixel values
@@ -53,18 +53,19 @@ y_test = to_categorical(y_test)
 
 ---------------------------------------------
 
-next we build our model with the appropriate number of nodes and optimizer = 'adam' 
+next, we build our model with the appropriate number of nodes and optimizer = 'adam' 
 then we train the model with x_train and y_train
-epochs = 10 , shows how times it goes through the entire dataset
+epochs = 10, shows how times it goes through the entire dataset
 then the trained model is saved as baseline.keras
 Now we can use the trained model in our code 'classifier.py'!  
 
 ---------------------------------------------
 Reminder: 
 pip install tensorflow 
+
 pip install taipy
 
-Credit to Python Simplifed Youtube Channel : https://www.youtube.com/watch?v=h0dglh9elCw&t=560s
+Credit to Python Simplified Youtube Channel : https://www.youtube.com/watch?v=h0dglh9elCw&t=560s
 
 ------------------------------------------
 ![Readme](https://github.com/mr-mpn/Python-ImageClassifier-NeuralNetwork-GUI/assets/135954454/8ff9a139-7773-4555-bbda-d452fd38eceb)
