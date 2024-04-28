@@ -60,7 +60,9 @@ then the trained model is saved as baseline.keras
 Now we can use the trained model in our code 'classifier.py'!  
 
 ---------------------------------------------
-Reminder: Use pip install tensorflow to install the required library
+Reminder: 
+pip install tensorflow 
+pip install taipy
 
 Credit to Python Simplifed Youtube Channel : https://www.youtube.com/watch?v=h0dglh9elCw&t=560s
 
